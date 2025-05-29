@@ -12,7 +12,8 @@ OBJ = \
 	linkhash.obj \
 	printbuf.obj \
 	json_object_iterator.obj \
-	json_c_version.obj
+	json_c_version.obj \
+        random_seed.obj
 
 GDAL_ROOT	=	..\..\..\..
 

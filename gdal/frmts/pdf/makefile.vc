@@ -11,7 +11,7 @@ GDAL_ROOT	=	..\..
 OBJ = $(OBJ) ..\..\ogr\ogrsf_frmts\mem\ogrmemdatasource.obj ..\..\ogr\ogrsf_frmts\mem\ogrmemdriver.obj ..\..\ogr\ogrsf_frmts\mem\ogrmemlayer.obj
 !ENDIF
 
-EXTRAFLAGS =  -I..\vrt -I..\mem -I..\..\ogr\ogrsf_frmts\mem $(POPPLER_EXTRAFLAGS) $(PODOFO_EXTRAFLAGS) $(PDFIUM_EXTRAFLAGS)
+EXTRAFLAGS =  /std:c++20 -I..\vrt -I..\mem -I..\..\ogr\ogrsf_frmts\mem $(POPPLER_EXTRAFLAGS) $(PODOFO_EXTRAFLAGS) $(PDFIUM_EXTRAFLAGS)
 
 !IFDEF POPPLER_ENABLED
 POPPLER_EXTRAFLAGS = $(POPPLER_CFLAGS) $(POPPLER_HAS_OPTCONTENT_FLAGS) $(POPPLER_BASE_STREAM_HAS_TWO_ARGS_FLAGS) $(POPPLER_0_20_OR_LATER_FLAGS) $(POPPLER_0_23_OR_LATER_FLAGS) $(POPPLER_0_58_OR_LATER_FLAGS) -DHAVE_POPPLER

@@ -127,3 +127,6 @@ nmake.local*
 *~
 *tmp
 .python-version
+
+gdal_vs2017/
+*.nativecodeanalysis.xml

@@ -1,5 +1,3 @@
-/* This is a generated file from gdal_version.h.in. DO NOT MODIFY !!!! */
-
 /* $Id$ */
 
 /* -------------------------------------------------------------------- */

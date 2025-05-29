@@ -34,6 +34,9 @@
 #include "snprintf_compat.h"
 #include "strdup_compat.h"
 
+// F:\ESRI\gdal\gdal\ogr\ogrsf_frmts\geojson\libjson\json_object.c
+#include "random_seed.h" // F:\ESRI\gdal\gdal\ogr\ogrsf_frmts\geojson\libjson\random_seed.h
+
 /* Avoid ctype.h and locale overhead */
 #define is_plain_digit(c) ((c) >= '0' && (c) <= '9')
 
